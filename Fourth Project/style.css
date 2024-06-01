@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.input form {
+    display: flex;
+    align-items: center;
+}
+
+#inpAdd {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.fa-plus {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#delAll {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#delAll:hover {
+    background-color: #d32f2f;
+}
+
+#notesContainer {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.noteModule {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.noteModule .date {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.noteModule .content {
+    display: block;
+    margin: 5px 0;
+}
+
+.noteModule .trash {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.atFirst {
+    color: #999;
+    font-size: 1.2em;
+}
